@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB955C220AE18430027CD66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB955C120AE18430027CD66 /* AppDelegate.swift */; };
+		3CB955C420AE18430027CD66 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3CB955C320AE18430027CD66 /* GameScene.sks */; };
+		3CB955C620AE18430027CD66 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3CB955C520AE18430027CD66 /* Actions.sks */; };
+		3CB955C820AE18430027CD66 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB955C720AE18430027CD66 /* GameScene.swift */; };
+		3CB955CD20AE18430027CD66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB955CB20AE18430027CD66 /* Main.storyboard */; };
+		3CB955CF20AE18450027CD66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB955CE20AE18450027CD66 /* Assets.xcassets */; };
+		3CB955D220AE18450027CD66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB955D020AE18450027CD66 /* LaunchScreen.storyboard */; };
+		3CB955DA20AE18E30027CD66 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB955D920AE18E30027CD66 /* Ball.swift */; };
+		3CB955DC20AE18ED0027CD66 /* ForceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB955DB20AE18ED0027CD66 /* ForceManager.swift */; };
+		3CB955DE20AE18F40027CD66 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB955DD20AE18F40027CD66 /* Button.swift */; };
+		3CB955E020AE18FB0027CD66 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB955DF20AE18FB0027CD66 /* Globals.swift */; };
+		3CB955E220AE190E0027CD66 /* PlayAgainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB955E120AE190E0027CD66 /* PlayAgainScene.swift */; };
+		3CB955E420AE19150027CD66 /* ScoresScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB955E320AE19150027CD66 /* ScoresScene.swift */; };
+		3CB955E620AE191D0027CD66 /* TutorialScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB955E520AE191D0027CD66 /* TutorialScene.swift */; };
+		3CB955E820AE19260027CD66 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB955E720AE19260027CD66 /* MenuScene.swift */; };
+		3CB955EA20AE1A960027CD66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB955E920AE1A950027CD66 /* ViewController.swift */; };
+		3CB955ED20AE1FC90027CD66 /* BallOnTarget.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CB955EC20AE1FC90027CD66 /* BallOnTarget.mp3 */; };
+		3CB955EF20AE1FD10027CD66 /* NewBall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3CB955EE20AE1FD00027CD66 /* NewBall.wav */; };
+		3CB955F120AE1FD80027CD66 /* ButtonPress.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3CB955F020AE1FD80027CD66 /* ButtonPress.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CB955BE20AE18430027CD66 /* Grav3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grav3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB955C120AE18430027CD66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CB955C320AE18430027CD66 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3CB955C520AE18430027CD66 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		3CB955C720AE18430027CD66 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3CB955CC20AE18430027CD66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CB955CE20AE18450027CD66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CB955D120AE18450027CD66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CB955D320AE18450027CD66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB955D920AE18E30027CD66 /* Ball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		3CB955DB20AE18ED0027CD66 /* ForceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForceManager.swift; sourceTree = "<group>"; };
+		3CB955DD20AE18F40027CD66 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		3CB955DF20AE18FB0027CD66 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		3CB955E120AE190E0027CD66 /* PlayAgainScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAgainScene.swift; sourceTree = "<group>"; };
+		3CB955E320AE19150027CD66 /* ScoresScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresScene.swift; sourceTree = "<group>"; };
+		3CB955E520AE191D0027CD66 /* TutorialScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialScene.swift; sourceTree = "<group>"; };
+		3CB955E720AE19260027CD66 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		3CB955E920AE1A950027CD66 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CB955EC20AE1FC90027CD66 /* BallOnTarget.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BallOnTarget.mp3; path = Assets.xcassets/BallOnTarget.mp3; sourceTree = "<group>"; };
+		3CB955EE20AE1FD00027CD66 /* NewBall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = NewBall.wav; path = Assets.xcassets/NewBall.wav; sourceTree = "<group>"; };
+		3CB955F020AE1FD80027CD66 /* ButtonPress.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ButtonPress.wav; path = Assets.xcassets/ButtonPress.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB955BB20AE18430027CD66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB955B520AE18430027CD66 = {
+			isa = PBXGroup;
+			children = (
+				3CB955C020AE18430027CD66 /* Grav3 */,
+				3CB955BF20AE18430027CD66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB955BF20AE18430027CD66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB955BE20AE18430027CD66 /* Grav3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB955C020AE18430027CD66 /* Grav3 */ = {
+			isa = PBXGroup;
+			children = (
+				3CB955C120AE18430027CD66 /* AppDelegate.swift */,
+				3CB955C320AE18430027CD66 /* GameScene.sks */,
+				3CB955C520AE18430027CD66 /* Actions.sks */,
+				3CB955E920AE1A950027CD66 /* ViewController.swift */,
+				3CB955D920AE18E30027CD66 /* Ball.swift */,
+				3CB955DB20AE18ED0027CD66 /* ForceManager.swift */,
+				3CB955DD20AE18F40027CD66 /* Button.swift */,
+				3CB955DF20AE18FB0027CD66 /* Globals.swift */,
+				3CB955EB20AE1F8C0027CD66 /* Scenes */,
+				3CB955CB20AE18430027CD66 /* Main.storyboard */,
+				3CB955CE20AE18450027CD66 /* Assets.xcassets */,
+				3CB955EC20AE1FC90027CD66 /* BallOnTarget.mp3 */,
+				3CB955EE20AE1FD00027CD66 /* NewBall.wav */,
+				3CB955F020AE1FD80027CD66 /* ButtonPress.wav */,
+				3CB955D020AE18450027CD66 /* LaunchScreen.storyboard */,
+				3CB955D320AE18450027CD66 /* Info.plist */,
+			);
+			path = Grav3;
+			sourceTree = "<group>";
+		};
+		3CB955EB20AE1F8C0027CD66 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3CB955C720AE18430027CD66 /* GameScene.swift */,
+				3CB955E120AE190E0027CD66 /* PlayAgainScene.swift */,
+				3CB955E320AE19150027CD66 /* ScoresScene.swift */,
+				3CB955E520AE191D0027CD66 /* TutorialScene.swift */,
+				3CB955E720AE19260027CD66 /* MenuScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB955BD20AE18430027CD66 /* Grav3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB955D620AE18450027CD66 /* Build configuration list for PBXNativeTarget "Grav3" */;
+			buildPhases = (
+				3CB955BA20AE18430027CD66 /* Sources */,
+				3CB955BB20AE18430027CD66 /* Frameworks */,
+				3CB955BC20AE18430027CD66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grav3;
+			productName = Grav3;
+			productReference = 3CB955BE20AE18430027CD66 /* Grav3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB955B620AE18430027CD66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ian Strothers";
+				TargetAttributes = {
+					3CB955BD20AE18430027CD66 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3CB955B920AE18430027CD66 /* Build configuration list for PBXProject "Grav3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CB955B520AE18430027CD66;
+			productRefGroup = 3CB955BF20AE18430027CD66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB955BD20AE18430027CD66 /* Grav3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CB955BC20AE18430027CD66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB955CD20AE18430027CD66 /* Main.storyboard in Resources */,
+				3CB955C420AE18430027CD66 /* GameScene.sks in Resources */,
+				3CB955CF20AE18450027CD66 /* Assets.xcassets in Resources */,
+				3CB955D220AE18450027CD66 /* LaunchScreen.storyboard in Resources */,
+				3CB955F120AE1FD80027CD66 /* ButtonPress.wav in Resources */,
+				3CB955C620AE18430027CD66 /* Actions.sks in Resources */,
+				3CB955ED20AE1FC90027CD66 /* BallOnTarget.mp3 in Resources */,
+				3CB955EF20AE1FD10027CD66 /* NewBall.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB955BA20AE18430027CD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB955DA20AE18E30027CD66 /* Ball.swift in Sources */,
+				3CB955DE20AE18F40027CD66 /* Button.swift in Sources */,
+				3CB955E820AE19260027CD66 /* MenuScene.swift in Sources */,
+				3CB955C820AE18430027CD66 /* GameScene.swift in Sources */,
+				3CB955E220AE190E0027CD66 /* PlayAgainScene.swift in Sources */,
+				3CB955E620AE191D0027CD66 /* TutorialScene.swift in Sources */,
+				3CB955EA20AE1A960027CD66 /* ViewController.swift in Sources */,
+				3CB955DC20AE18ED0027CD66 /* ForceManager.swift in Sources */,
+				3CB955E020AE18FB0027CD66 /* Globals.swift in Sources */,
+				3CB955C220AE18430027CD66 /* AppDelegate.swift in Sources */,
+				3CB955E420AE19150027CD66 /* ScoresScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CB955CB20AE18430027CD66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB955CC20AE18430027CD66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CB955D020AE18450027CD66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB955D120AE18450027CD66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CB955D420AE18450027CD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CB955D520AE18450027CD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CB955D720AE18450027CD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRZH7C7696;
+				INFOPLIST_FILE = Grav3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = istro.Grav3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CB955D820AE18450027CD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRZH7C7696;
+				INFOPLIST_FILE = Grav3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = istro.Grav3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB955B920AE18430027CD66 /* Build configuration list for PBXProject "Grav3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB955D420AE18450027CD66 /* Debug */,
+				3CB955D520AE18450027CD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB955D620AE18450027CD66 /* Build configuration list for PBXNativeTarget "Grav3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB955D720AE18450027CD66 /* Debug */,
+				3CB955D820AE18450027CD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB955B620AE18430027CD66 /* Project object */;
+}
